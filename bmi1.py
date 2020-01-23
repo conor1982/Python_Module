@@ -3,8 +3,7 @@
 Height = float(input("Enter Height in CM: "))/100
 Weight = float(input("Enter Weight in KG: "))
 
-bmi = Weight/(Height*Height)
+bmi = round((Weight/(Height*Height)),2)
 
 print("Your BMI is",bmi)
-
 
