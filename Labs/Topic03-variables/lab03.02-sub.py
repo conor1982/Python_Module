@@ -4,5 +4,8 @@ y = int(input("Enter second number"))
 
 answer = x - y
 
+#print 1
 print("{} minus {} is {}".format(x,y,answer))
+
+#print2
 print(x,"minus",y,"is",answer)
