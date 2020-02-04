@@ -1,5 +1,5 @@
 
-
+#practice 
 #print(ag[0])
 
 #for i in range(1,15):
@@ -14,12 +14,3 @@
 
 
 
-sentence = (input("Enter a sentence:"))
-
-
-
-sentence [::-2]
-
-
-
-print ("Your sentence with every second letter and in reverse order: ", sentence[::-2] )
