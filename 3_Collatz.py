@@ -14,7 +14,7 @@ while pos_int > 1:
         print(round(pos_int),"is odd so multiply by three and add one. This gives:",round((pos_int*3)+1))
         pos_int = (pos_int*3)+1
 
-print("We have now reached 1. Programme completed")
+print("We have now reached Number One!!! Programme completed")
 
     
     
