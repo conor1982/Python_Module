@@ -21,10 +21,8 @@ while pos_int > 1:
 
 print(round(pos_int))
 
-    
-
 #Prints when program completes
-#print("We have now reached Number One!!! Programme completed")
+
 
     
     
