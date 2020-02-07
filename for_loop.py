@@ -1,6 +1,9 @@
 
 #practice
+#identifies prime number between two numbers
+#to add input for upper and lower
 
+#error handling??
 upper = 11
 lower = 1
 

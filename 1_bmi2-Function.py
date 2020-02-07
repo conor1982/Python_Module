@@ -1,11 +1,9 @@
+#Another way of BMI calculation
+#Creates a re-usable function to calculate BMI
+
 def bmi(h,w):
     result = w/((h*h)/100)
     return round(result,2)
 
-#height = float(input("Enter Height in CM: "))
-#weight = float(input("Enter Weight in KG: "))
-
-#print("Your BMI is",bmi(weight,height))
-
-
+#function has two parameters: Height and Weight
 print(bmi(180,65))
