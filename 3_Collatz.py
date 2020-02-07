@@ -15,7 +15,8 @@ while pos_int > 1:
         print(round(pos_int), end = " ")
         pos_int = pos_int/2
     
-    elif pos_int % 2 != 0: 
+    else:
+        pos_int % 2 != 0 
         print(round(pos_int), end = " ")
         pos_int = (pos_int*3)+1
 
