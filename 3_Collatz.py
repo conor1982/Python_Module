@@ -21,7 +21,7 @@ while pos_int > 1:
 
 print(round(pos_int))
 
-#Prints when program completes.
+#Prints when program completes
 
 
     
