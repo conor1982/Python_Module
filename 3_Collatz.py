@@ -8,21 +8,25 @@
 pos_int = int(input("Please enter a positive integer: "))
 
 #While Loop
-#If Statement to calculate based on Odd or Even Number
- 
+
 while pos_int > 1:
+
+    print(round(pos_int), end = " ")
+
+#If Statement to calculate based on Odd or Even Number
+
+#check if num is even
+#if even divide by 2
     if pos_int % 2 == 0:
-        print(round(pos_int), end = " ")
         pos_int = pos_int/2
-    
+
+ #else has to be odd
+ # number multiplied by 3 and a ond added   
     else:
-        pos_int % 2 != 0 
-        print(round(pos_int), end = " ")
         pos_int = (pos_int*3)+1
+        
+print(round(pos_int), end = " ")
 
-print(round(pos_int))
-
-#Prints when program completes
 
 
     
