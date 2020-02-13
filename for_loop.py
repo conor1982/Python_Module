@@ -4,7 +4,7 @@
 #to add input for upper and lower
 
 #error handling??
-upper = 11
+upper = 110
 lower = 1
 
 print("prime numbers between",lower,"and",upper,"are:")
