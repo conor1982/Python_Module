@@ -2,11 +2,11 @@
 #Week 5 Problem Sheet
 #Output whether today is a weekday or not
 
+
 import datetime as dt
 
 #weekend day numbers
 weekend = [5,6]
-Friday_Day_Num = 4
 
 #is today day number in variable weekend
 
