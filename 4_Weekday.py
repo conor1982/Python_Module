@@ -6,14 +6,15 @@ import datetime as dt
 
 #weekend day numbers
 weekend = [5,6]
-Fri = 4
+Friday_Day_Num = 4
 
 #is today day number in variable weekend
 
 if dt.datetime.today().weekday() in weekend:
-#if day number 4 0r 5 its the weekend    
+#if day number 5 0r 6 its the weekend    
     print("It is the weekend, yay!")
 
+#if day number is 4 add message about it being Friday
 elif dt.datetime.today().weekday() == 4:
     print("Its is a weekday but it at least it is Friday!!!!")
 
