@@ -2,7 +2,7 @@
 
 P = []
 
-upper = 10
+upper = 100
 
 
 for i in range(2,upper):

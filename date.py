@@ -10,7 +10,10 @@ date = now.day
 month = now.month
 year = now.year
 weekday_num = now.weekday()
-
+time = now.time()
 
 print("Today is {} the {}th of {} {}".format(weekdays[weekday_num],date,months[month-1],year))
+
+
+print(time)
 

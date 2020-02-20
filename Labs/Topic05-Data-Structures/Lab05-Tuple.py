@@ -7,9 +7,11 @@ months = ("January","February","March","April","May","June","July","August","Sep
 spring = months[1:4]
 summer = months[4:7]
 autumn = months[7:10]
-winter_months = months[10],months[11],months[0]
-winter =  winter_months
+winter = months[10],months[11],months[0]
+
 
 for month in winter:
     print(month)
 
+#for month in spring:
+#    print(month)
