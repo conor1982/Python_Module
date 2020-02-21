@@ -3,21 +3,36 @@
 #Outputs approx of Square Root
 #Call function sqrt
 
-num_to_sqroot = float(input("Enter positive Float Number:"))
-num_guess = float(input("Enter Aprroximate Square Root Value (Positive Floast Number):"))
+#Input for Number (Float Allowed)
+number_to_sqroot = float(input("Please enter a positive number:"))
+#num_guess = float(input("Enter Aprroximate Square Root Value (Positive Floast Number):"))
 
-
-def sqrt_func(x):
+#Squar Root Function (Not using Newton Method)
+def sqrt_func_1(x):
+#Variable Y = Input Number to the power of 0.5
     y = x**0.5
     ans = y
-    return ans
+#Return Ans variable and Round to 1 place
+    return round(ans,1)
 
-#print(sqrt_func(14.5))
 
-#newton_method = (num_to_sqroot/num_guess+num_guess)/2
-#print(newton_method)
 
-while abs(num_guess**2-num_to_sqroot) >= 0.01:
-    num_guess = num_guess - (num_guess**2-num_to_sqroot)/(2*num_guess)
-    print(num_guess)
+
+#Square root function applying Newton Method
+def sqrt_Func_Newton(x):
+#Approx start point dividing input number by 2
+    approx = x/2
+#Loop while absolute of approx to the power of 2 less input number is greater or equal than 0.01
+    while abs(approx**2-x) >= 0.01:
+        approx = approx - (approx**2-x)/(2*approx)
+#Return approx number at end of loop
+    return round(approx,1)
+        
+        
+print("The square root of",number_to_sqroot,"is approx.",sqrt_func_1(number_to_sqroot),"(not using Newton Method).")
+
+print("The square root of",number_to_sqroot,"is approx.",sqrt_Func_Newton(number_to_sqroot),"(using Newton Method).")       
+
+
+
     
