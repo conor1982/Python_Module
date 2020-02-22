@@ -13,7 +13,7 @@ def sqrt_func_1(x):
     y = x**0.5
     ans = y
 #Return Ans variable and Round to 1 place
-    return round(ans,1)
+    return round(ans,10)
 
 
 
@@ -22,11 +22,12 @@ def sqrt_func_1(x):
 def sqrt_Func_Newton(x):
 #Approx start point dividing input number by 2
     approx = x/2
-#Loop while absolute of approx to the power of 2 less input number is greater or equal than 0.01
-    while abs(approx**2-x) >= 0.01:
-        approx = approx - (approx**2-x)/(2*approx)
+#Loop while absolute of value of f(x) is greater or equal than 0.00001
+    while abs(approx**2-x) >= 0.00001:
+        approx = approx - (approx**2 - x)/(2*approx)
 #Return approx number at end of loop
-    return round(approx,1)
+        
+    return round(approx,10)
         
         
 print("The square root of",number_to_sqroot,"is approx.",sqrt_func_1(number_to_sqroot),"(not using Newton Method).")
