@@ -1,0 +1,26 @@
+#Conor O'Riordan
+#Week 5 Problem Sheet
+#Output whether today is a weekday or not
+#Weekday function
+
+import datetime as dt
+
+def PartofWeek(x):
+    #weekend day numbers
+    weekend = [5,6]
+    weekdays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    weekdaynum = dt.datetime.now().weekday()
+
+    if weekdaynum in weekend:
+        print("Today is",weekdays[weekdaynum],"It is the weekend, yay!")
+    
+    elif weekdaynum == 4:
+        print("Today is",weekdays[weekdaynum],"Its is a weekday but it at least it is Friday!!!!")
+    
+    else:
+        print("Today is",weekdays[weekdaynum],"Yes, unfortunately today is a weekday.")
+
+    
+
+
+PartofWeek(4)
