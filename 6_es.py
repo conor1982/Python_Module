@@ -3,10 +3,12 @@
 with open('/Users/Oriordanc/Desktop/HDip/Programming/Python_Module/The_Catcher_in_the_Rye.txt','r') as f:
     readfile = f.read()
     words = readfile.split()
-    letterlower = [list(line.rstrip().lower()) for line in words]
+    #letterlower = [list(line.rstrip().lower()) for line in words]
     letter =  [list(line.rstrip()) for line in words]
     
-print(letterlower)
+#print(letterlower)
+upperletter = 'E'
+lowerletter = 'e'
 
 freq = {}
 
@@ -17,19 +19,24 @@ for line in letter:
         else:
             freq[char] = 1
 
-elower = freq['e']
-eupper = freq['E']
-total_letter_e = elower + eupper
+lower = freq[lowerletter]
+upper = freq[upperletter]
+total_letter = lower + upper
 
-print(total_letter_e)
+#print(total_letter_e)
 
-freqlowercase = {}
+#freqlowercase = {}
 
-for lcase in letterlower:
-    for lower in lcase:
-        if lower in freqlowercase:
-            freqlowercase[lower] +=1
-        else:
-            freqlowercase[lower] = 1
+#for lcase in letterlower:
+    #for lower in lcase:
+    #    if lower in freqlowercase:
+   #         freqlowercase[lower] +=1
+  #      else:
+ #           freqlowercase[lower] = 1
 
-print(freqlowercase['e'])
+#total_e = freqlowercase[lowerletter]
+
+
+print("There are a total of",total_letter,"in the book. The breakdown is:",lower,"lower case and",upper,"upper case")
+
+#print("Both methods returning same value:",total_letter == total_e)
