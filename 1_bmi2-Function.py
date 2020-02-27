@@ -6,4 +6,4 @@ def bmi(h,w):
     return round(result,2)
 
 #function has two parameters: Height and Weight
-print(bmi(180,65))
+print(bmi(170,66.678))

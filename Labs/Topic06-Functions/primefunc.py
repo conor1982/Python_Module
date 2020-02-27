@@ -4,30 +4,31 @@ def pnrange(x):
     lower = 2
     upper = x
 
-    L = []
+    P = []
 
-    for i in range(lower,x):
+    for i in range(lower,x+1):
 
         isprime = True
-        for j in L:
+        for j in P:
             if i % 2 != 0:
                 isprime = True
+            else: isprime = False    
 
-                break
+            
 
         if isprime:
-            L.append(i)
+            P.append(i)
             
-    return L
+    return P
 
-print(pnrange(10))
+print(pnrange(11))
 
 def pn(x):
     if x % 2 != 0:
-        x = True
+        y = True
     else:
-        x = False
+        y = False
 
-    return x
+    return print("yes",x,"is prime =",y)
             
-print(pn(4))
+pn(67)

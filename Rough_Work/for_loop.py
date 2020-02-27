@@ -1,17 +1,17 @@
 
-#practice
-#identifies prime number between two numbers
-#to add input for upper and lower
+ilename = "count.txt"
+def readNumber():
+    with open(filename) as f:
+        number = int(f.read())
+        return number
 
-#error handling??
-upper = 11
-lower = 5
+def writeNumber(number):
+    with open(filename, "wt") as f:
+        # write takes a string so we need to convert
+        f.write(str(number)) 
 
-print("prime numbers between",lower,"and",upper,"are:")
-
-for i in range(lower,upper):
-    if i == 1:
-        print("1 is not a prime number")
-    else:
-        if i % 2 != 0:
-            print(i,"is a prime number between",lower,"and",upper)
+# main
+num = readNumber()
+num += 1
+print ("we have run this program {} times".format(num))
+writeNumber(num)

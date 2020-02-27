@@ -2,7 +2,7 @@
 
 P = []
 
-upper = 100
+upper = 10
 
 
 for i in range(2,upper):
@@ -19,5 +19,5 @@ for i in range(2,upper):
 
 print(P)
 
-print(sum(P))
+#print(sum(P))
 

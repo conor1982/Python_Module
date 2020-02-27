@@ -5,7 +5,7 @@
 
 import datetime as dt
 
-def PartofWeek(x):
+def PartofWeek():
     #weekend day numbers
     weekend = [5,6]
     weekdays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
@@ -23,4 +23,5 @@ def PartofWeek(x):
     
 
 
-PartofWeek(4)
+PartofWeek()
+

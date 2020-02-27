@@ -54,3 +54,4 @@ while choice != "q":
     choice = displaymenu()
 
 
+doAdd()
