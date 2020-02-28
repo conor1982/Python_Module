@@ -15,10 +15,10 @@ def PartofWeek():
         print("Today is",weekdays[weekdaynum],"It is the weekend, yay!")
     
     elif weekdaynum == 4:
-        print("Today is",weekdays[weekdaynum],"Its is a weekday but it at least it is Friday!!!!")
+        print("Today is",weekdays[weekdaynum],"It's a weekday but it at least it is Friday!!!!")
     
     else:
-        print("Today is",weekdays[weekdaynum],"Yes, unfortunately today is a weekday.")
+        print("Today is",weekdays[weekdaynum],"and yes unfortunately today is a weekday.")
 
     
 

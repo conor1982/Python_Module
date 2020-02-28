@@ -1,9 +1,23 @@
+
+import json
+
 students = []
+filename = "/Users/Oriordanc/Desktop/HDip/Programming/Python_Module/students.json"
+
+def writedict(obj):
+    with open(filename,'wt') as f:
+        json.dump(obj,f)
+
+def readdict():
+    with open(filename) as f:
+        return json.load(f)
 
 def displaymenu():
     print("MENU")
     print("\ta) Add Student")
     print("\tv) View Student")
+    print("\ts) Save Student")
+    print("\tl) Load File")
     print("\tq) Quit")
     choice = input("Select One:")
     return choice
@@ -38,6 +52,15 @@ def doView():
         print("\t{}".format(student["Name"]))
         displaymodules(student["Modules"])
 
+def doSave():
+    writedict(students)
+    print("students saved")
+
+def doload():
+    global students
+    students = readdict()
+    print("Students Loaded")
+
 
 #main
 choice = displaymenu()
@@ -46,6 +69,10 @@ while choice != "q":
         doAdd()
     elif choice == "v":
         doView()
+    elif choice == "s":
+        doSave()
+    elif choice == "l":
+        doload()
     elif choice == "q":
         pass
     else:
@@ -53,5 +80,5 @@ while choice != "q":
     
     choice = displaymenu()
 
+print(students)
 
-doAdd()
