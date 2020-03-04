@@ -1,4 +1,5 @@
 #Conor O'Riordan
+#SEcondstringtask
 # to reverse the string of recieved user input"
 
 sentence = input("Please enter a sentence: ")
