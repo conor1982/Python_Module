@@ -1,7 +1,9 @@
 #Conor O'Riordan
-#bmi calculator
-#Enter Height: 
+#Task 2 BMI calculator
 
+
+#Enter Height - user input
+#Enter Weight - user input
 Weight = float(input("Enter Weight (in KG): "))
 Height = float(input("Enter Height (in CM): "))/100
 
