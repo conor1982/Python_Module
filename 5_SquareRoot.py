@@ -1,4 +1,5 @@
 #Conor O'Riordan
+#Newton Method
 #Take positive floating point number as input
 #Outputs approx of Square Root
 #Call function sqrt
@@ -13,7 +14,7 @@ def sqrt_Func_Newton(x):
     approx = x/2
         
 #Loop while absolute of value of f(x) is greater or equal than 0.00001
-    while abs(approx**2-x) >= 0.00001:
+    while abs(approx**2-x) >= 0.01:
         approx = approx - (approx**2 - x)/(2*approx)
 
 #Return approx number at end of loop
