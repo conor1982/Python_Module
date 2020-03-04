@@ -5,7 +5,7 @@
 #open file from directory
 #this file on my desktop
 #book name is The Catcher in the Rye
-with open('The_Catcher_in_the_Rye.txt','r') as f:
+with open('/Users/Oriordanc/Desktop/HDip/Programming/Python_Module/Moby_Dick.txt','r') as f:
     
     #reads out the full text
     readfile = f.read()
@@ -14,7 +14,7 @@ with open('The_Catcher_in_the_Rye.txt','r') as f:
     words = readfile.split()
     
     #variable loops through words variable and splits string into a list with seperate letters 
-    letter =  [list(line.strip().lower()) for line in words]
+    letter =  [list(line.strip()) for line in words]
    
 #input letters to main program
 letter_input = input("enter letter: ").lower()
