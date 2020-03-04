@@ -1,3 +1,4 @@
+#Conor O'Riordan
 # to reverse the string of recieved user input"
 
 sentence = input("Please enter a sentence: ")
