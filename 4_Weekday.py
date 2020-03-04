@@ -2,10 +2,10 @@
 #Week 5 Problem Sheet
 #Output whether today is a weekday or not
 
-
+#Imort Datetime module
 import datetime as dt
 
-#weekend day numbers
+#weekend day numbers in list
 weekend = [5,6]
 
 #is today day number in variable weekend
