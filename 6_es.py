@@ -5,19 +5,18 @@
 #open file from directory
 #this file on my desktop
 
-with open('/Users/Oriordanc/Desktop/HDip/Programming/Python_Module/Moby_Dick.txt','r') as f:
-    
-    #reads out the full text
-    readfile = f.read()
+filename = input("Enter book name: ")
+import os
 
-    #variable splits white space between words in text 
-    words = readfile.split()
-    
-    #variable loops through words variable and splits string into a list with seperate letters 
-    letter =  [list(line.strip()) for line in words]
-   
+for book in os.listdir('/Users/Oriordanc/Desktop'):
+    if book.startswith(filename):
+        with open(book,'r') as f:
+            readfile = f.read()
+            words = readfile.split()
+            letter =  [list(line.strip()) for line in words]
+
 #input letters to main program
-letter_input = input("enter letter: ").lower()
+letter_input = input("enter letter: ")
 
 
 #reads in input values 
@@ -46,4 +45,5 @@ print(total_occurence)
 
 #print(total_occurence,letter_to_count)
 
-f.close()
+
+#f.close()
