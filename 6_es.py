@@ -5,15 +5,15 @@
 #open file from directory
 #this file on my desktop
 
-filename = input("Enter book name: ")
 import os
+import sys
 
-for book in os.listdir('/Users/Oriordanc/Desktop'):
-    if book.startswith(filename):
-        with open(book,'r') as f:
-            readfile = f.read()
-            words = readfile.split()
-            letter =  [list(line.strip()) for line in words]
+filename = sys.argv[1]
+
+
+with open(filename,'r') as f:
+    readfile = f.read().split()
+    letter =  [list(line.strip()) for line in readfile]
 
 #input letters to main program
 letter_input = input("enter letter: ")
