@@ -5,7 +5,7 @@
 #open file from directory
 #this file on my desktop
 
-import os
+#import os
 import sys
 
 filename = sys.argv[1]
