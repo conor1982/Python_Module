@@ -12,12 +12,13 @@ Table of Contents
    * BMI Calculator
    
 
-## Overview
-This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.
-## Programming%Language
+# Overview
+This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffThis Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+# Programming Language
 Python 3.6
 
-## Weekly%Tasks
+# Weekly Tasks
 
 
 
