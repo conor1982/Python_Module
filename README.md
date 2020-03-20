@@ -12,13 +12,13 @@ This is a Readme file for the tasks and assingements in the Programming and Scri
    * BMI Calculator
    
 
-Overview
+[Overview](Overview)
 This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.
 
-Programming Language
+[Programming Language](Programming%Language)
 Python 3.6
 
-Weekly Tasks
+[Weekly Tasks](Weekly%Tasks)
 
 
 
