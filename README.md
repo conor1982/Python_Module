@@ -10,5 +10,7 @@ Table of Contents
 2. Programming Language Used
 3. Weekly Tasks
    * BMI Calculator
-   * 
+   
 
+## Overview
+This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.
