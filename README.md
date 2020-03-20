@@ -19,8 +19,12 @@ This Repository contains the Weekly Task code fot the various assigments from th
 Python 3.6
 
 # BMI Calculator
-This program asks the user to input their Weight(in KG) and Height (in Cm). The program then caluclate the BMI from these inputs and prints the result to 2 decimal places.
+This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
+
+Program Code https://github.com/conor1982/Python_Module/blob/master/1_bmi.py
+
 To Run: python 1_bmi.py
+
 
 
 
