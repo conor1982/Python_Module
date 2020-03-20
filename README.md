@@ -3,18 +3,14 @@ Tasks and Assignments
 
 # Description
 
-This is a Readme file for the tasks and assingements in the Programming and Scripting Module 2020.
+This is a Readme file for the tasks and assingements in the Programming and Scripting Module 2020. This Repository contains the Weekly Task code for the various assigments from the Programming and Scripting Course. 
+
+In total there are 7 different tasks. The student is required to write a program for each of these tasks in Python. Each program can be looked at in more detail in the Table of Contents below.
 
 # Table of Contents
-1. [Overview](#overview)
-2. [Programming Language](#programming-language)
-3. [BMI Calculator](#bmi-calculator)
-   
-   
-
-# Overview
-This Repository contains the Weekly Task code fot the various assigments from the Programming and Scripting Course. In total there are 7 different Tasks.
-
+1. [Programming Language](#programming-language)
+2. [BMI Calculator](#bmi-calculator)
+      
 # Programming Language
 Python 3.6
 
