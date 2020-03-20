@@ -7,8 +7,8 @@ This is a Readme file for the tasks and assingements in the Programming and Scri
 
 Table of Contents
 1. [Overview](#Overview)
-2. [Programming Language](#Programming Language Used)
-3. [WeeklyTasks](#Programming Language Used)
+2. [Programming Language](#Programming%Language%Used)
+3. [Weekly Tasks](#Weekly%Tasks)
    * BMI Calculator
    
 
