@@ -8,8 +8,8 @@ This is a Readme file for the tasks and assingements in the Programming and Scri
 # Table of Contents
 1. [Overview](#overview)
 2. [Programming Language](#programming-language)
-3. [Weekly Tasks](#weekly-tasks)
-   * BMI Calculator
+3. [BMI Calculator](#bmi-calculator)
+   
    
 
 # Overview
@@ -18,7 +18,11 @@ This Repository contains the Weekly Task code fot the various assigments from th
 # Programming Language
 Python 3.6
 
-# Weekly Tasks
+# BMI Calculator
+This program asks the user to input their Weight(in KG) and Height (in Cm). The program then caluclate the BMI from these inputs and prints the result to 2 decimal places.
+To Run: python 1_bmi.py
+
+
 
 
 
