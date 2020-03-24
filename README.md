@@ -18,7 +18,10 @@ In total there are 7 different tasks. The student is required to write a program
 # BMI Calculator
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
 
-Error handling in place for user input 
+Error handling in place for user input
+
+Example of error handling
+![image](https://user-images.githubusercontent.com/60179438/77441489-6521bb00-6de1-11ea-957b-d29ea9f4ec5c.png)
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/bmi.py
 
