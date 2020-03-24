@@ -10,6 +10,7 @@ In total there are 7 different tasks. The student is required to write a program
 # Table of Contents
 1. [Programming Language](#programming-language)
 2. [BMI Calculator](#bmi-calculator)
+3. [Second String](#secondstring)
       
 # Programming Language
 Python 3.6
@@ -17,6 +18,15 @@ Python 3.6
 # BMI Calculator
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
 
-Program Code https://github.com/conor1982/Python_Module/blob/master/1_bmi.py
+Error handling in place for user input 
+
+Program Code: https://github.com/conor1982/Python_Module/blob/master/1_bmi.py
 
 To Run: python 1_bmi.py
+
+# Second String
+This program asks the user to input a sentence and will output every second letter of the input in reverse order
+
+Program Code: https://github.com/conor1982/Python_Module/blob/master/2_secondstring.py 
+
+To Run: python 2_secondstring.py
