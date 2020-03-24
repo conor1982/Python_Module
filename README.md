@@ -14,6 +14,7 @@ In total there are 7 different tasks. The student is required to write a program
 1. [BMI Calculator](#bmi-calculator)
 2. [Second String](#second-string)
 3. [Collatz](#collatz)
+4. [Weekday](#weekday)
       
 # BMI Calculator
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
@@ -21,18 +22,22 @@ This program asks the user to input their Weight (in KG) and Height (in Cm). The
 Error handling in place for user input
 
 Example of error handling
+
 ![image](https://user-images.githubusercontent.com/60179438/77441489-6521bb00-6de1-11ea-957b-d29ea9f4ec5c.png)
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/bmi.py
 
-To Run: python bmi.py
+To Run: python bmi.py -> Complete input requirements
+
+User will then be asked to input Weight and Height
 
 # Second String
 This program asks the user to input a sentence and will output every second letter of the input in reverse order
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/secondstring.py 
 
-To Run: python secondstring.py
+To Run: python secondstring.py --> > Complete input requirement
+
 
 # Collatz
 This program asks the user to input a positive integer. If the integer is even it will divide it by 2. If it is odd it will multiply the integer by 3 and add 1.
@@ -47,8 +52,27 @@ While loop is used in this program for:
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/collatz.py
 
-To Run: python collatz.py
+To Run: python collatz.py -> Complete input requirement
 
 Example Below
 
 ![image](https://user-images.githubusercontent.com/60179438/77440811-a06fba00-6de0-11ea-8282-e368f522eb0b.png)
+
+# Weekday
+When this program is ran from the command line it will output whether the timestamp at time program is run is a weekday or on the weekend.
+There is also a different meassge if ran on a Friday.
+
+The Datetime libary is used in this program. The key variable is created from taking the current date time and extracting the weekday number e.g  today = dt.datetime.today().weekday()
+
+Using the weekday numbers as reference where 0 = Monday and 6 = Sunday, a weekend variable was created.
+
+If ran when weekday is 5 or 6 will print the weekend meassage, 4 will print the Friday message and 0, 1, 2, 3 prints the weekday message If, Elif and Else statements are used to print out the message.
+
+Program Code: https://github.com/conor1982/Python_Module/blob/master/weekday.py
+
+To Run: python weekday.py No user input required to complete the program
+
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77449534-f137e080-6de9-11ea-9fa5-31a48ddacaad.png)
+
