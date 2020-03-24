@@ -10,7 +10,7 @@ In total there are 7 different tasks. The student is required to write a program
 # Table of Contents
 1. [Programming Language](#programming-language)
 2. [BMI Calculator](#bmi-calculator)
-3. [Second String](#secondstring)
+3. [Second String](#second-string)
       
 # Programming Language
 Python 3.6
