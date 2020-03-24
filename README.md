@@ -43,3 +43,6 @@ While loop is used in this program for:
 Program Code: https://github.com/conor1982/Python_Module/blob/master/collatz.py
 
 To Run: python collatz.py
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77440811-a06fba00-6de0-11ea-8282-e368f522eb0b.png)
