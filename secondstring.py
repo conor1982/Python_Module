@@ -1,6 +1,6 @@
 #Conor O'Riordan
-#secondstringtask
-#to reverse the string of recieved user input"
+#Weekly Task 3 secondstring
+# #to reverse the string of recieved user input"
 
 #Ref https://www.w3schools.com/python/python_howto_reverse_string.asp
 sentence = input("Please enter a sentence: ")
