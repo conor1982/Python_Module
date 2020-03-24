@@ -19,13 +19,13 @@ This program asks the user to input their Weight (in KG) and Height (in Cm). The
 
 Error handling in place for user input 
 
-Program Code: https://github.com/conor1982/Python_Module/blob/master/1_bmi.py
+Program Code: https://github.com/conor1982/Python_Module/blob/master/bmi.py
 
 To Run: python bmi.py
 
 # Second String
 This program asks the user to input a sentence and will output every second letter of the input in reverse order
 
-Program Code: https://github.com/conor1982/Python_Module/blob/master/2_secondstring.py 
+Program Code: https://github.com/conor1982/Python_Module/blob/master/secondstring.py 
 
 To Run: python secondstring.py
