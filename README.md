@@ -20,9 +20,3 @@ This program asks the user to input their Weight (in KG) and Height (in Cm). The
 Program Code https://github.com/conor1982/Python_Module/blob/master/1_bmi.py
 
 To Run: python 1_bmi.py
-
-
-
-
-
-
