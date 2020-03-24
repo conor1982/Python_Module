@@ -37,12 +37,15 @@ This program asks the user to input a positive integer. If the integer is even i
 The program will loop through the numbers until in reaches a value of 1 and the loop ends.
 
 While loop is used in this program for:
+
  a) looping through the numbers
+
  b) for error handling if a positive integer is not entered by the user.
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/collatz.py
 
 To Run: python collatz.py
+
 Example Below
 
 ![image](https://user-images.githubusercontent.com/60179438/77440811-a06fba00-6de0-11ea-8282-e368f522eb0b.png)
