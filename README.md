@@ -20,6 +20,8 @@ In total there are 7 different tasks. The student is required to write a program
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
 
 Error handling in place for user input
+* input of negative values
+* for input of string values 
 
 Example of error handling
 
@@ -30,6 +32,10 @@ Program Code: https://github.com/conor1982/Python_Module/blob/master/bmi.py
 To Run: python bmi.py -> Complete input requirements
 
 User will then be asked to input Weight and Height
+
+## References
+- https://docs.python.org/3.1/tutorial/errors.html
+- https://stackoverflow.com/questions/34244588/reject-negative-numbers-as-exceptions-in-python
 
 # Second String
 This program asks the user to input a sentence and will output every second letter of the input in reverse order
@@ -48,7 +54,7 @@ While loop is used in this program for:
 
  a) looping through the numbers
 
- b) for error handling if a positive integer is not entered by the user.
+ b) for error handling if a positive integer or is not entered by the user.
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/collatz.py
 
@@ -59,14 +65,16 @@ Example Below
 ![image](https://user-images.githubusercontent.com/60179438/77440811-a06fba00-6de0-11ea-8282-e368f522eb0b.png)
 
 # Weekday
-When this program is ran from the command line it will output whether the timestamp at time program is run is a weekday or on the weekend.
+When this program is ran from the command line it will output whether the timestamp at time the program is run falls on a weekday or weekend.
 There is also a different meassge if ran on a Friday.
 
-The Datetime libary is used in this program. The key variable is created from taking the current date time and extracting the weekday number e.g  today = dt.datetime.today().weekday()
+The Datetime libary is used in this program. The key variable is created from taking the current datetime and extracting the weekday number e.g  today = dt.datetime.today().weekday()
 
 Using the weekday numbers as reference where 0 = Monday and 6 = Sunday, a weekend variable was created.
 
-If ran when weekday is 5 or 6 will print the weekend meassage, 4 will print the Friday message and 0, 1, 2, 3 prints the weekday message If, Elif and Else statements are used to print out the message.
+If ran when weekday is 5 or 6 will print the weekend meassage, 4 will print the Friday message and 0, 1, 2, 3 prints the weekday message 
+
+If, Elif and Else statements are used to print out the message.
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/weekday.py
 
