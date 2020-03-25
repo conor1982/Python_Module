@@ -8,21 +8,27 @@
 
 #while loop for error handling
 #Ref: https://docs.python.org/3.1/tutorial/errors.html
+#Ref  https://stackoverflow.com/questions/34244588/reject-negative-numbers-as-exceptions-in-python
 #Ref: Topic 9: Errors lecture videos
 while True:
     try:
         #Enter positive number 
         pos_int = int(input("Please enter a positive integer: "))
+        assert pos_int > 0
         break
 
+    #Error printed if negative number entered as input
+    except AssertionError:
+        print('You entered a negative number. Please enter a positive number!!')
+        
     #Error printed if non number entered as input   
     except ValueError:
         print("The input was not a positive integer. Please try again!")
 
 
 #While Loop
-#Ref1: https://www.tutorialspoint.com/python/python_while_loop.htm
-#Ref2: https://www.w3schools.com/python/python_while_loops.asp
+#Ref: https://www.tutorialspoint.com/python/python_while_loop.htm
+#Ref: https://www.w3schools.com/python/python_while_loops.asp
 while pos_int > 1:
     
     #prints post_int once greater than 1. If post_int == 1 then just prints 1 and loop finished
