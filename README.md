@@ -33,9 +33,12 @@ To Run: python bmi.py -> Complete input requirements
 
 User will then be asked to input Weight and Height
 
-## References
+### References
+- 
 - https://docs.python.org/3.1/tutorial/errors.html
 - https://stackoverflow.com/questions/34244588/reject-negative-numbers-as-exceptions-in-python
+- https://www.w3schools.com/python/python_while_loops.asp
+
 
 # Second String
 This program asks the user to input a sentence and will output every second letter of the input in reverse order
