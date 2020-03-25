@@ -8,6 +8,9 @@ import datetime as dt
 #weekend day numbers in list
 weekend = [5,6]
 
+#Ref: https://www.pythonprogramming.in/get-the-day-of-week-from-given-a-date-in-python.html
+#Ref: https://docs.python.org/2/library/datetime.html
+
 #variable that returns number value for current day based on time program ran 0 = Monday.... 6 = Sunday
 today = dt.datetime.today().weekday()
 
