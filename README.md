@@ -15,7 +15,8 @@ In total there are 7 different tasks. The student is required to write a program
 2. [Second String](#second-string)
 3. [Collatz](#collatz)
 4. [Weekday](#weekday)
-5. [Square Root](#square-root) 
+5. [Square Root](#square-root)
+6. [Es](#es)
       
 # BMI Calculator
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
@@ -74,6 +75,7 @@ Example Below
 - https://www.tutorialspoint.com/python/python_while_loop.htm
 - https://www.w3schools.com/python/python_while_loops.asp
 
+
 # Weekday
 When this program is ran from the command line it will output whether the timestamp at time the program is run falls on a weekday or weekend.
 There is also a different meassge if ran on a Friday.
@@ -94,11 +96,11 @@ Example Below
 
 ![image](https://user-images.githubusercontent.com/60179438/77449534-f137e080-6de9-11ea-9fa5-31a48ddacaad.png)
 
+
 # Square Root
 This program asks the user to input a positive number (integer or floating point) and outputs the approximate square root using the Newton method.
 
 There are two error handling elements to the program to ensure a postitve value is entered.
-
 
 The Newton method formula is as follows: (see video in references)
 * x = approx
@@ -128,5 +130,53 @@ Example Below
 ### References
 - https://www.w3schools.com/python/python_functions.asp
 - https://www.youtube.com/watch?v=2158QbsunA8
+
+
+# Es
+This program reads in a text file from a command line argument and counts the amount of times a letter appears in that file. This programs has user input which allows user input what specfic letter they want a count for. The input value is case sensitive.
+
+The sys python module is used in the program so the file name must be entered on the command line.
+
+If no file is entered, there program will print 'No File entered on command line'
+If the incorrect filename is entered or file can't be found the program will print  'File not Found'
+
+The program takes in the file, reads and splits the words out and then creates a list for each word. Each letter/charcter is then stripped into its own list.
+
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77667510-33902780-6f7a-11ea-84a3-ef728ad7343e.png)
+
+Using a nested for loop, a dictionary is created which counts every time each charcter appears in the file.
+
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77667648-66d2b680-6f7a-11ea-825d-4cd40aa055f1.png)
+
+Program Code: https://github.com/conor1982/Python_Module/blob/master/es.py
+
+To Run python es.py Enter_filename.txt
+* Ensure text file is on the same directory from where you run the program
+
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77668596-828a8c80-6f7b-11ea-9c9a-ab84a8c37541.png)
+
+### References
+- http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
+- https://docs.python.org/3.3/tutorial/inputoutput.html
+- https://www.w3schools.com/python/ref_string_strip.asp
+- https://stackoverflow.com/questions/41970992/appending-values-to-dictionary-in-for-loop
+- https://www.tutorialspoint.com/python/python_command_line_arguments.htm
+
+
+
+
+
+
+
+
+
+
+
 
 
