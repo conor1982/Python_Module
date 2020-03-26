@@ -17,6 +17,8 @@ In total there are 7 different tasks. The student is required to write a program
 4. [Weekday](#weekday)
 5. [Square Root](#square-root)
 6. [Es](#es)
+7. [Plot](#plot)
+
       
 # BMI Calculator
 This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
@@ -169,8 +171,55 @@ Example Below
 - https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 
 
+# Plot
+This program plots three functions in a give range (0-4) on one set of axes. The functions are:
+* f(x) = x
+* g(x) = x^2
+* h(x) = x^3
+
+### Python packages and sub-packages:
+* Matplotlib.pyplot
+* Numpy
+* scipy.interpolate
+
+Creating an array using the arange() function from Numpy, the variable x was created.
+
+x = np.arange(0,4,1) It started from 0 up to and NOT INCLUDING 4 in steps of 1. This is the basis for creating the other variables:
+* f(x)
+* g(x)
+* h(x)
+
+The scipy tools along with the linspace function from Numpy are then on these variables to create a visually smoother plot.
+
+Example of Plot without scipy.interpolate
+![image](https://user-images.githubusercontent.com/60179438/77672274-9b497100-6f80-11ea-8ec0-1498312115ad.png)
+
+Matplotlib is used to plot each variable. Each line has a different color, line style, legend label and linewidth
+
+Example Below
+
+![image](https://user-images.githubusercontent.com/60179438/77670913-bd41f400-6f7e-11ea-8ec2-a03de2fe29bb.png)
+
+Other Matplotlib features such as Title, Lengend, X and Y labels aslo used in the plot. The x and y limit is at 0 while the x axis ticks are linked to the variable x, the y axis ticks are lined to the maximum value in the h(x) variable.
+
+The plot is then save with a specific name.
+
+Program Code: https://github.com/conor1982/Python_Module/blob/master/plot.py
+
+To Run python plot.py
+
+Example of Plot
+
+![image](https://user-images.githubusercontent.com/60179438/77671685-dd25e780-6f7f-11ea-8804-4d0e27ca3343.png)
 
 
+## References
+- https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html
+- https://www.khanacademy.org/math/algebra-home/alg-radical-eq-func/alg-graphs-of-radical-functions/v/graphs-of-square-root-functions
+- https://stackoverflow.com/questions/5283649/plot-smooth-line-with-pyplot
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.splrep.html
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.splev.html
+- https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
 
 
 
