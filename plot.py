@@ -85,5 +85,4 @@ plt.yticks(np.arange(min(hx), max(hx)+2,2))
 #save plt
 plt.savefig("Task 8")
 
-plt.show()
 
