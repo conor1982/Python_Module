@@ -20,9 +20,11 @@ try:
     with open(filename,'r') as f:
          
          #splits file into individual words
+         #Ref https://docs.python.org/3.3/tutorial/inputoutput.html
          readfile = f.read().split()
 
          #for loop to create variable that splits the individual words into a list with letters/characters split
+         #Ref https://www.w3schools.com/python/ref_string_strip.asp
          letter =  [list(line.strip()) for line in readfile]
 
 
@@ -64,8 +66,7 @@ for line in letter:
             freq[char] = 1
 
 
-#count of charcter frequency
-total_occurence = freq[letter_input]
-print(total_occurence)
+#print count of charcter frequency by passing input value to dictionary 
+print(freq[letter_input])
 
 
