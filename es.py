@@ -1,35 +1,61 @@
 #Conor O'Riordan
-#Return total amount of times a letter
-#occurs in a text
+#Weekly Task 7
+#Read in a file from a Command line argument
+#Return total amount of times a letter (case sensitive) appears in a file
+#Program has an input option to select which letter the user wants a return for 
 
-#open file from directory
-#this file on my desktop
 
-#import os
+# SYS module used for command line arguments
 import sys
 
-filename = sys.argv[1]
+#error handling - more detail in comments above exceptions 
+#Ref http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
+
+try:
+    #takes an argument from the command line at position 2 i.e Filename
+    filename = sys.argv[1]
+    
+    #opens file in readmode
+    #using with means no nead to have f.close() at the end
+    with open(filename,'r') as f:
+         
+         #splits file into individual words
+         readfile = f.read().split()
+
+         #for loop to create variable that splits the individual words into a list with letters/characters split
+         letter =  [list(line.strip()) for line in readfile]
 
 
-with open(filename,'r') as f:
-    readfile = f.read().split()
-    letter =  [list(line.strip()) for line in readfile]
+#Ref http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
+#error handling if command line argument left blank
+except IndexError:
+    print('No File entered on command line')
+    
+    #system exit when an exception or error  occurs
+    sys.exit(1)
+
+#both the following needed for readfile and letter variables above
+#error handling if incorrect filename with extension entered on command line
+except NameError:
+    print('File not Found')
+    sys.exit(1)
+
+#error handling if incorrect name entered on command line    
+except FileNotFoundError:
+    print('File not Found')
+    sys.exit(1)
 
 #input letters to main program
 letter_input = input("enter letter: ")
 
-
-#reads in input values 
-letter_to_count = letter_input
-
-
-
-#dictionary for a count of each letter 
+#dictionary for a count of each letter and charcter in file
+# Ref https://stackoverflow.com/questions/41970992/appending-values-to-dictionary-in-for-loop
 freq = {}
 
-#loop to return count of each letter
+#for loop for each list in letter
 for line in letter:
-    for char in line:    
+    #loops through characters in each list from letter variable
+    for char in line:
         if char in freq:
             #adds 1 to each time a character is present
             freq[char] +=1
@@ -37,13 +63,9 @@ for line in letter:
             #if character is only present once give it a value of 1
             freq[char] = 1
 
+
 #count of charcter frequency
-total_occurence = freq[letter_to_count]
+total_occurence = freq[letter_input]
 print(total_occurence)
 
-#prints out total
 
-#print(total_occurence,letter_to_count)
-
-
-#f.close()
