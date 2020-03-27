@@ -34,7 +34,7 @@ hxspl = splrep(x,hx)
 
 #Ref https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html
 #Variable to smooth out X [0:4] over 100 evenly spaced steps 
-x2 = np.linspace(x.min(),x.max(),500)
+x2 = np.linspace(x.min(),x.max(),500, endpoint= False)
 
 #Ref  https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.splev.html
 # returns tuple
@@ -84,5 +84,3 @@ plt.yticks(np.arange(min(hx), max(hx)+2,2))
 
 #save plt
 plt.savefig("Task 8")
-
-
