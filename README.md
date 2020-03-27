@@ -5,7 +5,7 @@ All Assignments created using Python Programming Language
 
 # Description
 
-This is a Readme file for the tasks and assignments in the Programming and Scripting Module 2020. This Repository contains the Weekly Task code for the various assigments from the Programming and Scripting Course. 
+This is a Readme file for the Programming and Scripting Module 2020. This Repository contains the Weekly Task code for the various assignments for this Module. 
 
 In total there are 7 different tasks. The student is required to write a program for each of these tasks in Python. Each program can be looked at in more detail in the Table of Contents below.
 
@@ -21,11 +21,11 @@ In total there are 7 different tasks. The student is required to write a program
 
       
 # BMI Calculator
-This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates the BMI from these inputs and prints the result to 2 decimal places.
+This program asks the user to input their Weight (in KG) and Height (in Cm). The program then caluclates their BMI from these inputs and prints the result to 2 decimal places.
 
 Error handling in place for user input
 * input of negative values
-* for input of string values 
+* input of string values 
 
 Example of error handling
 
@@ -33,9 +33,7 @@ Example of error handling
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/bmi.py
 
-To Run: python bmi.py -> Complete input requirements
-
-User will then be asked to input Weight and Height
+To Run: python bmi.py -> Complete input requirements (weight and height)
 
 ### References
 - https://docs.python.org/3.1/tutorial/errors.html
@@ -44,7 +42,7 @@ User will then be asked to input Weight and Height
 
 
 # Second String
-This program asks the user to input a sentence and will output every second letter of the input in reverse order
+This program asks the user to input a sentence and will output every second letter of that input in reverse order.
 
 Program Code: https://github.com/conor1982/Python_Module/blob/master/secondstring.py 
 
@@ -57,9 +55,9 @@ To Run: python secondstring.py --> > Complete input requirement
 # Collatz
 This program asks the user to input a positive integer. If the integer is even it will divide it by 2. If it is odd it will multiply the integer by 3 and add 1.
 
-The program will loop through the numbers until in reaches a value of 1 and the loop ends.
+The program will then loop through the numbers until in reaches a value of 1 and exits the loop.
 
-While loop is used in this program for:
+A while loop is used in this program for:
 
  a) looping through the numbers
 
@@ -84,9 +82,9 @@ There is also a different meassge if ran on a Friday.
 
 The Datetime libary is used in this program. The key variable is created from taking the current datetime and extracting the weekday number e.g  today = dt.datetime.today().weekday()
 
-Using the weekday numbers as reference where 0 = Monday and 6 = Sunday, a weekend variable was created.
+Using the weekday numbers as reference where 0 = Monday and 6 = Sunday, a weekend variable was created i.e weekend = [5,6]
 
-If ran when weekday is 5 or 6 will print the weekend meassage, 4 will print the Friday message and 0, 1, 2, 3 prints the weekday message 
+If ran when the weekday is 5 or 6 will print the weekend meassage, 4 will print the Friday message and 0, 1, 2, 3 prints the weekday message 
 
 If, Elif and Else statements are used to print out the message.
 
@@ -107,13 +105,13 @@ There are two error handling elements to the program to ensure a postitve value 
 The Newton method formula is as follows: (see video in references)
 * x = approx
 * f(x) = x^2 -2
-* f'(x) = 2x i.e derivative
+* f'(x) = 2*x i.e derivative
 * new approx = x-(f(x)/f'(x)
 
 The input is used as a parameter of the function created in the program.
 The function:
 * takes the input and divides by 2, this  "approx" in the Newton Method
-* uses a while loop to loop through the Newton method formula (see above) once the absolute value of f(x) is > that 0.01 
+* uses a while loop to loop through the Newton method formula (see above) once the absolute value of f(x) is > than 0.01 
 * returns the number at the end of the loop to 1 decimel place
 
 Function Code:
@@ -188,8 +186,9 @@ x = np.arange(0,4,1) It started from 0 up to and NOT INCLUDING 4 in steps of 1. 
 * f(x)
 * g(x)
 * h(x)
+For example the values of the g(x) would be 0,1,4,9.
 
-The scipy tools along with the linspace function from Numpy are then on these variables to create a visually smoother plot.
+The scipy tools along with the linspace function from Numpy are then on these variables to create a visually smoother plot. This uses the min value and max value from variable x and smooths it out over 500 equally spaced samples.
 
 Example of Plot without scipy.interpolate
 ![image](https://user-images.githubusercontent.com/60179438/77672274-9b497100-6f80-11ea-8ec0-1498312115ad.png)
