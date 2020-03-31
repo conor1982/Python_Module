@@ -183,7 +183,7 @@ Creating an array using the arange() function from Numpy, the variable x was cre
 
 x = np.arange(0,4,1) It started from 0 up to and NOT INCLUDING 4 in steps of 1. 
 
-Another variable called x_smooth was created bym referencing the min and max values of variable x using the numpy linspace function. This variable then forms the basis for:
+Another variable called x_smooth was created by referencing the min and max values of variable x using the numpy linspace function. This variable then forms the basis for:
 * f(x)
 * g(x)
 * h(x)
